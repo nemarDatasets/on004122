@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "BCIT Speed Control",
+  "description": "The BCIT Speed Control dataset comprises extended time-on-task EEG recordings from subjects performing simulated driving tasks designed to assess fatigue-related performance changes. Participants completed two 45-minute driving conditions with varying levels of control responsibility while experiencing periodic vehicle perturbations. The dataset includes 64-channel EEG data plus 8 additional channels (4 EOG and 2 mastoid channels) recorded at 2048 Hz sampling rate, vehicle performance metrics, and behavioral measures of fatigue, providing a resource for investigating brain-behavior interactions and fatigue biomarkers in sustained attention tasks.",
+  "methods_description": "EEG data were acquired using BioSemi 64-channel systems (plus 8 additional channels including 4 eye and 2 mastoid channels) at 2048 Hz sampling rate. Subjects performed two counterbalanced Speed Control driving conditions (A: steering only with automatic speed control; B: steering and manual speed control) in a driving simulator (Real Time Technologies) with 900 Hz video refresh rate. Vehicle data were logged at 100 Hz. Participants completed a 10-15 minute practice session prior to the experimental task. Fatigue was assessed using Task-Induced Fatigue Scale (TIFS), Karolinska Sleepiness Scale (KSS), and Visual Analog Scale of Fatigue (VAS-F).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,12 +17,48 @@
     "Tony Johnson (curation)": {},
     "Kay Robbins (curation)": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004122.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "fatigue"
+    },
+    {
+      "term": "driving simulation"
+    },
+    {
+      "term": "simulator"
+    },
+    {
+      "term": "sustained attention"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "brain-behavior interaction"
+    },
+    {
+      "term": "vehicle control"
+    },
+    {
+      "term": "perturbation"
+    },
+    {
+      "term": "biomarkers"
+    },
+    {
+      "term": "time-on-task"
+    },
+    {
+      "term": "performance metrics"
+    },
+    {
+      "term": "electrooculography"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.3389/fnins.2014.00155.",
       "identifier_type": "DOI",
@@ -90,6 +128,11 @@
       "identifier": "10.1016/j.neuroimage.2019.116054",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004122.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -98,12 +141,12 @@
       "award_number": "W911NF-10-0-0002"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "38.8 GB (83 files)"
   ],
   "formats": [
     ".ipynb",
@@ -112,41 +155,8 @@
     ".set",
     ".tsv",
     ".txt",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "The BCIT Speed Control dataset comprises extended time-on-task EEG recordings from subjects performing simulated driving tasks designed to assess fatigue-related performance changes. Participants completed two 45-minute driving conditions with varying levels of control (automatic speed maintenance vs. manual speed control) while responding to lateral vehicle perturbations. The dataset includes 72-channel EEG data (64 EEG channels plus 8 additional channels including 4 eye and 2 mastoid channels, sampled at 2048 Hz), vehicle performance metrics, and behavioral measures of fatigue, providing a resource for investigating brain-behavior interactions and fatigue biomarkers in sustained attention tasks.",
-  "methods_description": "EEG data were acquired using BioSemi 64-channel systems (plus 8 additional channels including 4 eye and 2 mastoid channels) at 2048 Hz sampling rate. Subjects performed two counterbalanced Speed Control driving conditions (A: steering only with automatic speed control; B: steering and manual speed control) lasting 45 minutes each in a driving simulator (Real Time Technologies) with vehicle data logged at 100 Hz. Dependent measures included reaction times to perturbations, continuous vehicle performance metrics (steering wheel angle, lane position, heading error), and subjective fatigue scales (TIFS, KSS, VAS-F).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "fatigue"
-    },
-    {
-      "term": "driving simulation"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "sustained attention"
-    },
-    {
-      "term": "time-on-task"
-    },
-    {
-      "term": "fatigue biomarkers"
-    },
-    {
-      "term": "neurophysiology"
-    },
-    {
-      "term": "eye tracking"
-    },
-    {
-      "term": "vehicle control"
-    }
-  ],
-  "source_hash": "2615b1a625280118c1a74c043188bef42a05fcbaf7f54e676541b807a2343cbe"
+  "source_hash": "a71b05f647d0ffc06e2f104a16fac0d3df5a8be3ecf9cb6a948466367975bd90"
 }
