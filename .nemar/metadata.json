@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004122",
-  "source": "openneuro",
-  "source_id": "ds004122",
+  "pipeline_stage": "enriched",
   "title": "BCIT Speed Control",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Jonathan Touryan (data and curation)": {},
     "Greg Apker (data)": {},
@@ -15,26 +15,138 @@
     "Tony Johnson (curation)": {},
     "Kay Robbins (curation)": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004122.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.3389/fnins.2014.00155.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.physbeh.2015.05.026.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1080/00222895.2014.959887, 10.1080/00222895.2014.959887.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2017.02.057.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2019.116361.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2019.116054.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004122",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004122",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2017.02.057",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.3389/fnins.2014.00155",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.physbeh.2015.05.026",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1080/00222895.2014.959887",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2019.116361",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2019.116054",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "This research was sponsored by the Army Research Laboratory and was accomplished under Cooperative Agreement Number W911NF-10-0-0002."
+      "funder_name": "Army Research Laboratory",
+      "award_number": "W911NF-10-0-0002"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".ipynb",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx"
+  ],
+  "description": "The BCIT Speed Control dataset comprises extended time-on-task EEG recordings from subjects performing simulated driving tasks designed to assess fatigue-related performance changes. Participants completed two 45-minute driving conditions with varying levels of control (automatic speed maintenance vs. manual speed control) while responding to lateral vehicle perturbations. The dataset includes 72-channel EEG data (64 EEG channels plus 8 additional channels including 4 eye and 2 mastoid channels, sampled at 2048 Hz), vehicle performance metrics, and behavioral measures of fatigue, providing a resource for investigating brain-behavior interactions and fatigue biomarkers in sustained attention tasks.",
+  "methods_description": "EEG data were acquired using BioSemi 64-channel systems (plus 8 additional channels including 4 eye and 2 mastoid channels) at 2048 Hz sampling rate. Subjects performed two counterbalanced Speed Control driving conditions (A: steering only with automatic speed control; B: steering and manual speed control) lasting 45 minutes each in a driving simulator (Real Time Technologies) with vehicle data logged at 100 Hz. Dependent measures included reaction times to perturbations, continuous vehicle performance metrics (steering wheel angle, lane position, heading error), and subjective fatigue scales (TIFS, KSS, VAS-F).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fatigue"
+    },
+    {
+      "term": "driving simulation"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "sustained attention"
+    },
+    {
+      "term": "time-on-task"
+    },
+    {
+      "term": "fatigue biomarkers"
+    },
+    {
+      "term": "neurophysiology"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "vehicle control"
+    }
+  ],
+  "source_hash": "2615b1a625280118c1a74c043188bef42a05fcbaf7f54e676541b807a2343cbe"
 }
